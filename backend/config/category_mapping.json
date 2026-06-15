@@ -1,0 +1,20 @@
+{
+  "description": "Maps raw dataset categories to a transaction type. Any category not listed falls back to 'default_type'.",
+  "default_type": "Expense",
+  "mapping": {
+    "Job": "Income",
+    "Loan given": "Expense",
+    "Other": "Expense",
+    "Food": "Expense",
+    "Cafe": "Expense",
+    "Gifts": "Expense",
+    "Bought for myself": "Expense",
+    "Leisure": "Expense",
+    "Health": "Expense",
+    "Taxi": "Expense",
+    "Clothes": "Expense",
+    "Public transport": "Expense",
+    "University": "Expense",
+    "Fines": "Expense"
+  }
+}

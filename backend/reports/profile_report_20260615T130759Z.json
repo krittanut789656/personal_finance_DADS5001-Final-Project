@@ -1,0 +1,241 @@
+{
+  "generated_at": "2026-06-15T13:07:59.146142+00:00",
+  "source_rows": 938,
+  "clean_rows": 938,
+  "rows_dropped_in_transform": 0,
+  "structural": {
+    "row_count": 938,
+    "column_count": 6,
+    "columns": {
+      "date_time": {
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 280,
+        "top_values": {
+          "2025-10-29 00:00:00": 9,
+          "2025-04-02 00:00:00": 9,
+          "2025-09-06 00:00:00": 9,
+          "2025-09-30 00:00:00": 8,
+          "2025-03-28 00:00:00": 8,
+          "2025-11-13 00:00:00": 8,
+          "2025-09-27 00:00:00": 8,
+          "2025-09-29 00:00:00": 8,
+          "2025-10-14 00:00:00": 8,
+          "2025-10-01 00:00:00": 8
+        }
+      },
+      "category": {
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 14,
+        "top_values": {
+          "Public transport": 414,
+          "Cafe": 169,
+          "Food": 142,
+          "Taxi": 62,
+          "Gifts": 41,
+          "Leisure": 30,
+          "Other": 24,
+          "Health": 22,
+          "Loan given": 11,
+          "University": 9
+        }
+      },
+      "account": {
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 3,
+        "top_values": {
+          "acct_2": 400,
+          "acct_1": 358,
+          "acct_3": 180
+        }
+      },
+      "amount": {
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 78,
+        "min": 0.0,
+        "max": 1172.0,
+        "mean": 15.842217484008529,
+        "negative_count": 0,
+        "zero_count": 14
+      },
+      "currency": {
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 1,
+        "top_values": {
+          "BYN": 938
+        }
+      },
+      "tags": {
+        "dtype": "object",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 7,
+        "top_values": {
+          "tag_1": 660,
+          "tag_2": 120,
+          "tag_4": 87,
+          "tag_3": 52,
+          "tag_6": 15,
+          "2th_work": 3,
+          "tag_5": 1
+        }
+      }
+    },
+    "duplicate_rows": 145
+  },
+  "statistical": {
+    "date_range": {
+      "min_date": "2025-01-07",
+      "max_date": "2025-11-30",
+      "row_count": 938
+    },
+    "type_totals": [
+      {
+        "type": "Expense",
+        "total_amount": 14727.0,
+        "n": 933
+      },
+      {
+        "type": "Income",
+        "total_amount": 133.0,
+        "n": 5
+      }
+    ],
+    "category_breakdown": [
+      {
+        "category": "Loan given",
+        "type": "Expense",
+        "total_amount": 2809.0,
+        "transaction_count": 11,
+        "avg_amount": 255.36363636363637
+      },
+      {
+        "category": "Other",
+        "type": "Expense",
+        "total_amount": 2699.0,
+        "transaction_count": 24,
+        "avg_amount": 112.45833333333333
+      },
+      {
+        "category": "Food",
+        "type": "Expense",
+        "total_amount": 1538.0,
+        "transaction_count": 142,
+        "avg_amount": 10.830985915492958
+      },
+      {
+        "category": "Cafe",
+        "type": "Expense",
+        "total_amount": 1424.0,
+        "transaction_count": 169,
+        "avg_amount": 8.42603550295858
+      },
+      {
+        "category": "Gifts",
+        "type": "Expense",
+        "total_amount": 1277.0,
+        "transaction_count": 41,
+        "avg_amount": 31.146341463414632
+      },
+      {
+        "category": "Bought for myself",
+        "type": "Expense",
+        "total_amount": 1273.0,
+        "transaction_count": 4,
+        "avg_amount": 318.25
+      },
+      {
+        "category": "Leisure",
+        "type": "Expense",
+        "total_amount": 945.0,
+        "transaction_count": 30,
+        "avg_amount": 31.5
+      },
+      {
+        "category": "Health",
+        "type": "Expense",
+        "total_amount": 804.0,
+        "transaction_count": 22,
+        "avg_amount": 36.54545454545455
+      },
+      {
+        "category": "Taxi",
+        "type": "Expense",
+        "total_amount": 770.0,
+        "transaction_count": 62,
+        "avg_amount": 12.419354838709678
+      },
+      {
+        "category": "Clothes",
+        "type": "Expense",
+        "total_amount": 548.0,
+        "transaction_count": 3,
+        "avg_amount": 182.66666666666666
+      },
+      {
+        "category": "Public transport",
+        "type": "Expense",
+        "total_amount": 514.0,
+        "transaction_count": 414,
+        "avg_amount": 1.2415458937198067
+      },
+      {
+        "category": "Job",
+        "type": "Income",
+        "total_amount": 133.0,
+        "transaction_count": 5,
+        "avg_amount": 26.6
+      },
+      {
+        "category": "University",
+        "type": "Expense",
+        "total_amount": 81.0,
+        "transaction_count": 9,
+        "avg_amount": 9.0
+      },
+      {
+        "category": "Fines",
+        "type": "Expense",
+        "total_amount": 45.0,
+        "transaction_count": 2,
+        "avg_amount": 22.5
+      }
+    ],
+    "account_breakdown": [
+      {
+        "account": "acct_1",
+        "total_expense": 13000.0,
+        "total_income": 64.0,
+        "transaction_count": 358
+      },
+      {
+        "account": "acct_3",
+        "total_expense": 1285.0,
+        "total_income": 69.0,
+        "transaction_count": 180
+      },
+      {
+        "account": "acct_2",
+        "total_expense": 442.0,
+        "total_income": 0.0,
+        "transaction_count": 400
+      }
+    ],
+    "amount_stats": {
+      "min_amount": 0.0,
+      "max_amount": 1172.0,
+      "avg_amount": 15.842217484008529,
+      "std_amount": 78.29114483681235,
+      "median_amount": 2.0
+    }
+  }
+}

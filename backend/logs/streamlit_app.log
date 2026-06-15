@@ -1,0 +1,37 @@
+2026-06-15 13:36:56 | WARNING  | streamlit_app | MongoDB unavailable, running without it: pymongo is not installed. Run: pip install 'pymongo[srv]'
+2026-06-15 13:36:56 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 13:36:56 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 13:46:49 | WARNING  | streamlit_app | MongoDB unavailable, running without it: pymongo is not installed. Run: pip install 'pymongo[srv]'
+2026-06-15 13:46:49 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 13:46:49 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 13:47:31 | WARNING  | streamlit_app | MongoDB unavailable, running without it: pymongo is not installed. Run: pip install 'pymongo[srv]'
+2026-06-15 13:47:31 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 13:47:31 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 13:48:32 | WARNING  | streamlit_app | MongoDB unavailable, running without it: pymongo is not installed. Run: pip install 'pymongo[srv]'
+2026-06-15 13:48:32 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 13:48:32 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 13:48:50 | WARNING  | streamlit_app | MongoDB unavailable, running without it: pymongo is not installed. Run: pip install 'pymongo[srv]'
+2026-06-15 13:48:51 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 13:48:51 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 13:49:02 | WARNING  | streamlit_app | MongoDB unavailable, running without it: pymongo is not installed. Run: pip install 'pymongo[srv]'
+2026-06-15 13:49:02 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 13:49:02 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 13:49:11 | WARNING  | streamlit_app | MongoDB unavailable, running without it: pymongo is not installed. Run: pip install 'pymongo[srv]'
+2026-06-15 13:49:11 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 13:49:11 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 13:49:24 | WARNING  | streamlit_app | MongoDB unavailable, running without it: pymongo is not installed. Run: pip install 'pymongo[srv]'
+2026-06-15 13:49:24 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 13:49:24 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 21:27:58 | WARNING  | streamlit_app | MongoDB unavailable, running without it: MONGODB_URI is not set.
+2026-06-15 21:27:58 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 21:27:58 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 21:28:40 | WARNING  | streamlit_app | MongoDB unavailable, running without it: MONGODB_URI is not set.
+2026-06-15 21:28:40 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 21:28:41 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 21:30:27 | WARNING  | streamlit_app | MongoDB unavailable, running without it: MONGODB_URI is not set.
+2026-06-15 21:30:27 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 21:30:27 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 21:40:19 | WARNING  | streamlit_app | MongoDB unavailable, running without it: MONGODB_URI is not set.
+2026-06-15 21:40:19 | INFO     | streamlit_app | Loaded 938 transactions from local CSV (offline mode)
+2026-06-15 21:40:19 | INFO     | streamlit_app | DuckDB: loaded 938 transactions into in-memory engine
+2026-06-15 21:40:33 | WARNING  | streamlit_app | Snowflake unavailable, running without it: SNOWFLAKE_USER and SNOWFLAKE_PASSWORD must be set.

@@ -1,0 +1,9 @@
+2026-06-15 13:07:58 | INFO     | profiling.profiler | === Data profiling starting ===
+2026-06-15 13:07:59 | INFO     | profiling.profiler | Profiling complete: 938 source rows -> 938 clean rows, 145 duplicate rows, date range 2025-01-07 to 2025-11-30
+2026-06-15 13:07:59 | INFO     | profiling.profiler | Profile report written to /sessions/keen-vigilant-faraday/mnt/Final projects DADS5001 15 June 2026/backend/reports/profile_report_20260615T130759Z.json
+2026-06-15 13:13:14 | INFO     | profiling.profiler | === Data profiling starting ===
+2026-06-15 13:13:14 | INFO     | profiling.profiler | Profiling complete: 938 source rows -> 938 clean rows, 145 duplicate rows, date range 2025-01-07 to 2025-11-30
+2026-06-15 13:49:20 | INFO     | profiling.profiler | === Data profiling starting ===
+2026-06-15 13:49:21 | INFO     | profiling.profiler | Profiling complete: 938 source rows -> 938 clean rows, 145 duplicate rows, date range 2025-01-07 to 2025-11-30
+2026-06-15 21:40:30 | INFO     | profiling.profiler | === Data profiling starting ===
+2026-06-15 21:40:30 | INFO     | profiling.profiler | Profiling complete: 938 source rows -> 938 clean rows, 145 duplicate rows, date range 2025-01-07 to 2025-11-30

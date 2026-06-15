@@ -1,0 +1,13 @@
+2026-06-15 13:09:56 | INFO     | etl.pipeline | === ETL pipeline starting ===
+2026-06-15 13:10:43 | INFO     | etl.pipeline | === ETL pipeline starting ===
+2026-06-15 13:11:15 | INFO     | etl.pipeline | === ETL pipeline starting ===
+2026-06-15 13:11:16 | INFO     | etl.pipeline | DuckDB: persisted 938 transactions, derived 11 monthly summary rows
+2026-06-15 13:11:16 | INFO     | etl.pipeline | Skipping MongoDB load (load_mongo=False)
+2026-06-15 13:11:16 | INFO     | etl.pipeline | Skipping Snowflake load (load_snowflake=False)
+2026-06-15 13:11:16 | INFO     | etl.pipeline | === ETL pipeline finished: {'rows_extracted': 938, 'rows_loaded': 938, 'months_summarized': 11, 'mongo_transactions': None, 'mongo_monthly_summary': None, 'snowflake_transactions': None, 'snowflake_monthly_summary': None} ===
+2026-06-15 13:12:30 | INFO     | etl.pipeline | === ETL pipeline starting ===
+2026-06-15 13:13:11 | INFO     | etl.pipeline | === ETL pipeline starting ===
+2026-06-15 13:13:11 | INFO     | etl.pipeline | DuckDB: persisted 938 transactions, derived 11 monthly summary rows
+2026-06-15 13:13:11 | INFO     | etl.pipeline | Skipping MongoDB load (load_mongo=False)
+2026-06-15 13:13:11 | INFO     | etl.pipeline | Skipping Snowflake load (load_snowflake=False)
+2026-06-15 13:13:11 | INFO     | etl.pipeline | === ETL pipeline finished: {'rows_extracted': 938, 'rows_loaded': 938, 'months_summarized': 11, 'mongo_transactions': None, 'mongo_monthly_summary': None, 'snowflake_transactions': None, 'snowflake_monthly_summary': None} ===

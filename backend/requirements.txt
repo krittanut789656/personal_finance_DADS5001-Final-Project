@@ -1,0 +1,29 @@
+# Core data stack
+pandas>=2.0.0
+numpy>=1.24.0
+duckdb>=0.10.0
+
+# MongoDB
+pymongo[srv]>=4.6.0
+
+# Snowflake
+snowflake-connector-python>=3.6.0
+
+# Config / env
+python-dotenv>=1.0.0
+
+# Utilities
+python-dateutil>=2.8.2
+
+# Streamlit frontend (Phase 3)
+streamlit>=1.32.0
+plotly>=5.18.0
+
+# Required by pandas Styler (DataFrame.style.format used for table formatting)
+jinja2>=3.1.2
+
+# AI layer (Phase 4) - Anthropic Claude client
+anthropic>=0.40.0
+
+# FRED macroeconomic data integration (Phase 4)
+requests>=2.31.0
