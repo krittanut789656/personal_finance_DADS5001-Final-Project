@@ -1,0 +1,34 @@
+# ============================================================
+# AI Personal Finance Intelligence Platform - .gitignore
+# ============================================================
+
+# Secrets - NEVER commit real credentials
+backend/.env
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# DuckDB local database files
+*.duckdb
+backend/data/duckdb/
+
+# Logs
+logs/
+backend/logs/
+
+# Profiling reports
+backend/reports/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
